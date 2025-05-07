@@ -1,0 +1,55 @@
+{
+  "rooms": [
+    "entrance", "hall", "storage", "library", "keyroom1", "keyroom2", "trap1", "trap2",
+    "locked1", "locked2", "puzzle", "final", "deadend1", "deadend2"
+  ],
+  "room_positions": {
+    "entrance": [0, 0],
+    "hall": [0, 1],
+    "storage": [1, 1],
+    "library": [1, 2],
+    "keyroom1": [2, 1],
+    "keyroom2": [2, 3],
+    "trap1": [0, 2],
+    "trap2": [3, 2],
+    "locked1": [2, 2],
+    "locked2": [3, 3],
+    "puzzle": [4, 3],
+    "final": [5, 3],
+    "deadend1": [1, 0],
+    "deadend2": [3, 0]
+  },
+  "doors": [
+    { "from": "entrance", "to": "hall" },
+    { "from": "hall", "to": "storage" },
+    { "from": "storage", "to": "library" },
+    { "from": "library", "to": "locked1", "locked": true, "key": "red" },
+    { "from": "keyroom1", "to": "storage" },
+    { "from": "keyroom2", "to": "locked1" },
+    { "from": "locked1", "to": "locked2", "locked": true, "key": "blue" },
+    { "from": "locked2", "to": "puzzle" },
+    { "from": "puzzle", "to": "final" },
+    { "from": "hall", "to": "trap1" },
+    { "from": "trap1", "to": "library" },
+    { "from": "locked2", "to": "trap2" },
+    { "from": "trap2", "to": "keyroom2" },
+    { "from": "entrance", "to": "deadend1" },
+    { "from": "deadend1", "to": "deadend2" },
+    { "from": "keyroom2", "to": "locked2", "locked": true, "key": "blue" }
+  ],
+  "items": {
+    "keyroom1": ["red"],
+    "keyroom2": ["blue"]
+  },
+  "traps": {
+    "trap1": { "turns": 1, "effect": "reduce_movement" },
+    "trap2": { "turns": 1, "effect": "wait" },
+    "puzzle": { "turns": 1, "effect": "wait" },
+    "storage": { "turns": 2, "effect": "reduce_movement" },
+    "library": { "turns": 3, "effect": "reduce_movement" }
+  },
+  "start": "entrance",
+  "goal": "final",
+  "inventory_limit": 3,
+  "max_turns": 50
+}

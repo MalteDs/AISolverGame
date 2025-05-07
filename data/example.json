@@ -1,0 +1,29 @@
+{
+  "rooms": ["start", "hall", "library", "treasure", "exit", "keyroom"],
+  "room_positions": {
+    "start": [1, 1],
+    "hall": [1, 2],
+    "library": [1, 3],
+    "keyroom": [2, 3],
+    "treasure": [1, 4],
+    "exit": [1, 5]
+  },
+  "doors": [
+    {"from": "start", "to": "hall"},
+    {"from": "hall", "to": "library"},
+    {"from": "library", "to": "keyroom"},
+    {"from": "library", "to": "treasure", "locked": true, "key": "key1"},
+    {"from": "treasure", "to": "exit"}
+  ],
+  "items": {
+    "keyroom": ["key1"]
+  },
+  "traps": {
+    "hall": {},
+    "treasure": {}
+  },
+  "start": "start",
+  "goal": "exit",
+  "inventory_limit": 2,
+  "max_turns": 20
+}

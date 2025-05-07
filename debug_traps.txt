@@ -1,0 +1,48 @@
+[ ] Entró a hall sin activar trampa.
+[⚠️] Trampa de espera activada en hall con tiempo de espera 10 segundos.
+[ ] Entró a storage sin activar trampa.
+[⚠️] Trampa de reducción de movimiento activada en storage con valor 1
+[ ] Entró a library sin activar trampa.
+[⚠️] Trampa de reducción de movimiento activada en library con valor 1
+[⚠️] Trampa de reducción de movimiento activada en library con valor 1
+[⚠️] Trampa de reducción de movimiento activada en library con valor 1
+[⚠️] Trampa de reducción de movimiento activada en library con valor 1
+[ ] Entró a trap1 sin activar trampa.
+[ ] Entró a library sin activar trampa.
+[⚠️] Trampa de reducción de movimiento activada en library con valor 1
+[⚠️] Trampa de reducción de movimiento activada en library con valor 1
+[ ] Entró a storage sin activar trampa.
+[⚠️] Trampa de reducción de movimiento activada en storage con valor 1
+[ ] Entró a keyroom1 sin activar trampa.
+[ ] Entró a storage sin activar trampa.
+[⚠️] Trampa de reducción de movimiento activada en storage con valor 1
+[ ] Entró a library sin activar trampa.
+[⚠️] Trampa de reducción de movimiento activada en library con valor 1
+[ ] Entró a locked1 sin activar trampa.
+[ ] Entró a keyroom2 sin activar trampa.
+[⚠️] Trampa de espera activada en keyroom2 con tiempo de espera 15 segundos.
+[⚠️] Trampa de espera activada en keyroom2 con tiempo de espera 15 segundos.
+[ ] Entró a locked2 sin activar trampa.
+[ ] Entró a puzzle sin activar trampa.
+[ ] Entró a final sin activar trampa.
+[ ] Entró a puzzle sin activar trampa.
+[ ] Entró a final sin activar trampa.
+[ ] Entró a puzzle sin activar trampa.
+[ ] Entró a locked2 sin activar trampa.
+[ ] Entró a keyroom2 sin activar trampa.
+[⚠️] Trampa de espera activada en keyroom2 con tiempo de espera 15 segundos.
+[ ] Entró a hall sin activar trampa.
+[⚠️] Trampa de espera activada en hall con tiempo de espera 10 segundos.
+[ ] Entró a trap1 sin activar trampa.
+[ ] Entró a library sin activar trampa.
+[⚠️] Trampa de reducción de movimiento activada en library con valor 1
+[ ] Entró a storage sin activar trampa.
+[⚠️] Trampa de reducción de movimiento activada en storage con valor 1
+[ ] Entró a keyroom1 sin activar trampa.
+[ ] Entró a storage sin activar trampa.
+[⚠️] Trampa de reducción de movimiento activada en storage con valor 1
+[ ] Entró a library sin activar trampa.
+[⚠️] Trampa de reducción de movimiento activada en library con valor 1
+[ ] Entró a locked1 sin activar trampa.
+[ ] Entró a keyroom2 sin activar trampa.
+[⚠️] Trampa de espera activada en keyroom2 con tiempo de espera 15 segundos.

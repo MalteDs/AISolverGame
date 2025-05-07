@@ -1,0 +1,16 @@
+--- PROLOG LOG START ---
+Rooms, doors, keys, and puzzles initialized.
+Movement rules initialized.
+Puzzle rules initialized.
+Inventory system initialized.
+Trap constraints initialized.
+Move constraints initialized.
+Pathfinding system initialized.
+--- PROLOG LOG START ---
+Rooms, doors, keys, and puzzles initialized.
+Movement rules initialized.
+Puzzle rules initialized.
+Inventory system initialized.
+Trap constraints initialized.
+Move constraints initialized.
+Pathfinding system initialized.
